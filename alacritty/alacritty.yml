@@ -1,0 +1,186 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+env:
+  # TERM variable
+  TERM: alacritty
+
+window:
+  #dimensions:
+  #  columns: 0
+  #  lines: 0
+  
+  # Window padding (changes require restart)
+  padding:
+    x: 10
+    y: 10
+
+  # Spread additional padding evenly around the terminal content.
+  #dynamic_padding: false
+
+  # Window title
+  title: Alacritty
+
+  # Window class (Linux/BSD only):
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 0.5
+scrolling:
+  # Specifying '0' will disable scrolling.
+  history: 5000
+
+# Font configuration
+font:
+
+  normal:
+    family: Iosevka Mayukai Codepro
+    style: Regular 
+
+  bold:
+    family: JetBrains Mono NL
+    style: Bold Italic
+
+  italic:
+    family: JetBrains Mono NL
+    style: Medium Italic
+
+  bold_italic:
+    family : JetBrains Mono NL
+    style: Medium Italic
+
+  # Point size
+  size: 12.5
+
+  # Offset is the extra space around each character. `offset.y` can be thought of
+  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
+  offset:
+    x: 0
+    y: 1
+
+# Bold is Bright
+draw_bold_text_with_bright_colors: true
+
+
+#selection:
+#semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+
+#save_to_clipboard: false
+
+# Allow terminal applications to change Alacritty's window title.
+dynamic_title: true
+
+#cursor:
+# Values for `style`:
+#   - ▇ Block
+#   - _ Underline
+#   - | Beam
+#style: Block
+
+# Live config reload (changes require restart)
+#live_config_reload: true
+
+
+#url:
+launcher:
+  program: xdg-open
+  args: []
+
+key_bindings:
+  # (Windows, Linux, and BSD only)
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: Insert, mods: Shift, action: PasteSelection }
+  - { key: Key0, mods: Control, action: ResetFontSize }
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  - { key: Plus, mods: Control, action: IncreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
+
+  - { key: Paste, action: Paste }
+  - { key: Copy, action: Copy }
+  - { key: L, mods: Control, action: ClearLogNotice }
+  - { key: L, mods: Control, chars: "\x0c" }
+  - { key: PageUp, mods: Shift, action: ScrollPageUp, mode: ~Alt }
+  - { key: PageDown, mods: Shift, action: ScrollPageDown, mode: ~Alt }
+  - { key: Home, mods: Shift, action: ScrollToTop, mode: ~Alt }
+  - { key: End, mods: Shift, action: ScrollToBottom, mode: ~Alt }
+
+colors:
+    # Default colors
+    primary:
+        background: "#24273A" # base
+        foreground: "#CAD3F5" # text
+        # Bright and dim foreground colors
+        dim_foreground: "#CAD3F5" # text
+        bright_foreground: "#CAD3F5" # text
+
+    # Cursor colors
+    cursor:
+        text: "#24273A" # base
+        cursor: "#F4DBD6" # rosewater
+    vi_mode_cursor:
+        text: "#24273A" # base
+        cursor: "#B7BDF8" # lavender
+
+    # Search colors
+    search:
+        matches:
+            foreground: "#24273A" # base
+            background: "#A5ADCB" # subtext0
+        focused_match:
+            foreground: "#24273A" # base
+            background: "#A6DA95" # green
+        footer_bar:
+            foreground: "#24273A" # base
+            background: "#A5ADCB" # subtext0
+
+    # Keyboard regex hints
+    hints:
+        start:
+            foreground: "#24273A" # base
+            background: "#EED49F" # yellow
+        end:
+            foreground: "#24273A" # base
+            background: "#A5ADCB" # subtext0
+
+    # Selection colors
+    selection:
+        text: "#24273A" # base
+        background: "#F4DBD6" # rosewater
+
+    # Normal colors
+    normal:
+        black: "#494D64" # surface1
+        red: "#ED8796" # red
+        green: "#A6DA95" # green
+        yellow: "#EED49F" # yellow
+        blue: "#8AADF4" # blue
+        magenta: "#F5BDE6" # pink
+        cyan: "#8BD5CA" # teal
+        white: "#B8C0E0" # subtext1
+
+    # Bright colors
+    bright:
+        black: "#5B6078" # surface2
+        red: "#ED8796" # red
+        green: "#A6DA95" # green
+        yellow: "#EED49F" # yellow
+        blue: "#8AADF4" # blue
+        magenta: "#F5BDE6" # pink
+        cyan: "#8BD5CA" # teal
+        white: "#A5ADCB" # subtext0
+
+    # Dim colors
+    dim:
+        black: "#494D64" # surface1
+        red: "#ED8796" # red
+        green: "#A6DA95" # green
+        yellow: "#EED49F" # yellow
+        blue: "#8AADF4" # blue
+        magenta: "#F5BDE6" # pink
+        cyan: "#8BD5CA" # teal
+        white: "#B8C0E0" # subtext1
+
+    indexed_colors:
+        - { index: 16, color: "#F5A97F" }
+        - { index: 17, color: "#F4DBD6" }
+
