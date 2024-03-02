@@ -13,7 +13,7 @@
 
 </br>
 
-<img align="right" src="https://raw.githubusercontent.com/primalkz/dotfiles/main/assets/output.png" width="400px">
+<img align="right" src="https://raw.githubusercontent.com/primalkz/hyprland_dots/main/assets/output.png" width="400px">
 
 Hey, Thanks for dropping by.... This is my personal setup of hyrpland Window Manager and other utilities.
 
