@@ -1,19 +1,24 @@
-<p align="center">
-  <b>🔥 Hyprland dotfiles 🔥</b>
-</p> 
+<h3 align="center">
+  <b>Hyprland dotfiles</b>
+</h3> 
 
 <h1>
   <a href="#--------">
   </a>
 </h1>
 
-<p align="center"> 
-<img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8ccf7e&labelColor=22292b&style=for-the-badge">
-</p> 
+<p align="center">
+  <a href="https://github.com/primalkz/hyprland_dots/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/foot?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+  <a href="https://github.com/primalkz/hyprland_dots/issues"><img src="https://img.shields.io/github/issues/catppuccin/foot?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+</p>
 
 </br>
 
-<img src="https://raw.githubusercontent.com/primalkz/hyprland_dots/main/assets/output.png" width="350px">
+## Previews
+<p align="right">
+<img src="https://raw.githubusercontent.com/primalkz/hyprland_dots/main/assets/output.png" width="300px">
+</p>
+
 
 Hey, Thanks for dropping by.... This is my personal setup of hyrpland Window Manager and other utilities.
 
@@ -40,6 +45,7 @@ Hey, Thanks for dropping by.... This is my personal setup of hyrpland Window Man
   > After you're done with cloning the repository. Install the following packages 
   
   ```hyprland waybar rofi foot alacritty hyprpicker azote maim ranger ncmpcpp mpd wofi.``` 
+  > Don't forget to copy fonts/ to your ~/.local/share/fonts/ directory.
  
   > After you're done with all this, copy the configuration files from cloned directory to particular path. 
 
