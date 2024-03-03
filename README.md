@@ -14,10 +14,7 @@
 
 </br>
 
-## Previews
-<p align="right">
-<img src="https://raw.githubusercontent.com/primalkz/hyprland_dots/main/assets/output.png" width="300px">
-</p>
+<img align="right" src="https://raw.githubusercontent.com/primalkz/hyprland_dots/main/assets/output.png" width="300px">
 
 
 Hey, Thanks for dropping by.... This is my personal setup of hyrpland Window Manager and other utilities.
