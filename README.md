@@ -8,8 +8,8 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/primalkz/hyprland_dots/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/foot?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-  <a href="https://github.com/primalkz/hyprland_dots/issues"><img src="https://img.shields.io/github/issues/catppuccin/foot?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+  <a href="https://github.com/primalkz/hyprland_dots/stargazers"><img src="https://img.shields.io/github/stars/primalkz/hyprland_dots?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+  <a href="https://github.com/primalkz/hyprland_dots/issues"><img src="https://img.shields.io/github/issues/primalkz/hyprland_dots?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
 </p>
 
 </br>
