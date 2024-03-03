@@ -1,0 +1,126 @@
+add_newline = true
+
+[line_break]
+disabled=false
+
+[character]
+success_symbol="[✦ »](#61AFEF)"
+error_symbol="[✘✘](bold red)"
+
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "󰂃 "
+
+[[battery.display]]
+threshold = 20
+style = "bold red"
+
+[hostname]
+ssh_only = false
+format =  "[$hostname](bold red) on "
+trim_at = ".companyname.com"
+disabled = false
+
+[aws]
+symbol = " "
+disabled = true
+
+[lua]
+disabled = true
+
+[conda]
+symbol = " "
+disabled = true
+
+[dart]
+symbol = " "
+disabled = true
+
+[directory]
+home_symbol = " "
+read_only = " "
+truncation_length = 2
+truncation_symbol = "../"
+
+#[docker]
+#symbol = " "
+#disabled = true
+
+[elixir]
+symbol = " "
+disabled = true
+
+[elm]
+symbol = " "
+disabled = true
+
+
+[git_branch]
+symbol = "  "
+
+[golang]
+symbol = " "
+disabled = true
+
+[haskell]
+symbol = " "
+disabled = true
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+disabled = true
+
+[julia]
+symbol = " "
+disabled = true
+
+[memory_usage]
+symbol = ""
+disabled = true
+threshold = -1
+style = "cyan"
+format = "via [${ram}]($style)"
+
+[nim]
+symbol = " "
+disabled = true
+
+[nix_shell]
+symbol = " "
+disabled = true
+
+[nodejs]
+symbol = " "
+disabled = true
+
+[package]
+symbol = " "
+disabled = false
+
+[perl]
+symbol = " "
+disabled = true
+
+[php]
+symbol = " "
+disabled = true
+
+[python]
+symbol = " "
+disabled = true
+
+[ruby]
+symbol = " "
+disabled = true
+
+[rust]
+symbol = " "
+disabled = true
+
+[swift]
+symbol = "ﯣ "
+disabled = true
