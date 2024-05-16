@@ -61,6 +61,6 @@ Hey, Thanks for dropping by.... This is my personal setup of hyrpland Window Man
 - [Catppuccin](https://github.com/catppuccin/catppuccin) colorscheme which I've used in my rice. 
 - I am using [IosevkaTermSlab font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/IosevkaTermSlab.zip) and a Custom font called [Iosevka Mayukai](https://github.com/Iosevka-Mayukai/Iosevka-Mayukai).
 - I'm using an utility called [azote](https://github.com/nwg-piotr/azote) to change wallpapers.
-- My other Dotfiles can be found in the [bspwm-dots](https://github.com/primalkz/bspwm-dots), [xmonad](https://github.com/primalkz/bspwm-dots) and [DWM source files](https://github.com/primalkz/suckless).
+- My other Dotfiles can be found in the [bspwm-dots](https://github.com/primalkz/bspwm-dots), [xmonad](https://github.com/primalkz/xmonad) and [DWM source files](https://github.com/primalkz/suckless).
 
 # Thank You 
